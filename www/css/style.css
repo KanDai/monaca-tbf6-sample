@@ -1,2 +1,30 @@
-/**/
+#wrap {
+  padding: 30px 20px;
+}
 
+#outputImg {
+  background-color: #eee;
+  margin-bottom: 20px;
+  min-height: 240px;
+}
+
+#outputImg img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  display: block;
+}
+
+#outputData {
+  margin-bottom: 20px;
+}
+
+#outputData .text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#btnCamera {
+  margin-bottom: 20px;
+}

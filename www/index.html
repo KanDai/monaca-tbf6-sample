@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
   <script src="lib/onsenui/js/onsenui.min.js"></script>
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
   <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
@@ -19,6 +19,23 @@
   </script>
 </head>
 <body>
-  This is a template for Onsen UI app.
+
+<div class="toolbar">
+  <div class="toolbar__center">画像認識カメラ</div>
+</div>
+
+<div id="wrap">
+  <div id="outputImg"></div>
+  <div id="outputData"></div>
+
+  <a id="btnCamera" class="button--large--cta" href="javascript:void(0)">撮影</a>
+
+  <div id="input">
+    <label>写真から選択:
+      <input id="sample2_input" type="file" />
+    </label>
+  </div>
+</div>
+
 </body>
 </html>
